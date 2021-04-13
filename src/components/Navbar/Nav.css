@@ -1,0 +1,15 @@
+.nav {
+    grid-area: n;
+    width: 200px;
+    margin-right: auto;
+    background-color: #81b3d2;
+}
+
+.nav__item {
+      list-style: none;
+}
+
+.nav__link{
+    color: #fff;
+    text-decoration: none;
+}
