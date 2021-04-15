@@ -7,9 +7,14 @@
 
 .nav__item {
       list-style: none;
+      color: #fff;
 }
 
 .nav__link{
     color: #fff;
     text-decoration: none;
+} 
+
+.nav__link:focus {
+    color: red;
 }
