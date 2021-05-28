@@ -1,10 +1,10 @@
-import './Messages.css'
 
 const Messages = () => {
     return (
-        <div className="messages">
-            Messages
-        </div>
+            <div className="messages">
+                <p>hello</p>
+                <p>name</p>
+            </div>
     )
 }
 
