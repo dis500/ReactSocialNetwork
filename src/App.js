@@ -1,7 +1,7 @@
 import Header from './components/Header/Header'
 import Nav from './components/Navbar/Nav'
 import Profile from './components/Profile/Profile'
-import Messages from './components/Messages/Messages'
+import Messages from './components/Messages/Dialogs'
 import Music from './components/Music/Music'
 import News from './components/News/News'
 import Settings from './components/Settings/Settings'
@@ -12,7 +12,7 @@ const App = () => {
   return (
     <Router>
       <div className="app-wrapper">
-        <Header name="sfsdf"/>
+        <Header />
         <Nav />
         <div className="wrapper">
           <Switch>

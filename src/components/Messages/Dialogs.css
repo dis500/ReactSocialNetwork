@@ -1,0 +1,15 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+    grid-area: c;
+    width: 950px;
+    height: 100%;
+    background-color: red;  
+}
+
+.dialogs__author {
+    margin-top: 0;
+    margin-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
