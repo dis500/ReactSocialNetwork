@@ -4,9 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const data = [
+  {id: 1, name: 'Igor'},
+  {id: 2, name: 'Max'},
+  {id: 3, name: 'Andrew'},
+  {id: 4, name: 'Sam'}
+]
 ReactDOM.render(
+  
   <React.StrictMode>
-    <App />
+    <App param={data} />
   </React.StrictMode>,
   document.getElementById('root')
 );
